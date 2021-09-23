@@ -1,0 +1,1 @@
+1. it's pretty much the same with question 1135, the only thing is the # of island is n - count
