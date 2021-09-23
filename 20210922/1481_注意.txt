@@ -1,0 +1,1 @@
+1. this is the way to convert map.values to List: List<Integer> values = new ArrayList<Integer>(map.values());
