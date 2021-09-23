@@ -1,0 +1,3 @@
+1. DisjointSet.find() 里应是while loop， 错用了if condition
+2. 注意sort array
+3. 减少typo！
