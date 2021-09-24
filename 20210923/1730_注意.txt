@@ -1,0 +1,2 @@
+1. BFS is used in this problem, revisit https://leetcode.com/problems/number-of-provinces/solution/
+2. so I knew I should use a queue and have a visited matrix, but my logic still messed up, another reason to revisit BFS to get more familiar with it
