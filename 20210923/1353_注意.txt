@@ -1,0 +1,2 @@
+1. sort the array then have a heap (priority queue) to keep track of event ends soonest
+2. after each day's event, always clean up the event that's finished
