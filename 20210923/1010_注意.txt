@@ -1,0 +1,2 @@
+1. only need to get modulo of 60
+2. can have an array size of 60 to handle
