@@ -1,0 +1,2 @@
+1. when we loop the string array, every time we see a operator, the first 2 elements in stack should be its right and left
+2. when compare string, always use equals, not ==
