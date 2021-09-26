@@ -1,0 +1,2 @@
+1. start = i - (len - 1) / 2, e.g. i =3, len = 3, start = i - 1, so i - (3 - 1) / 2, if len = 4, start = i - 1, so i - (4 - 1) / 2
+2. why return R - L -1 in expandFromCenter? because once s.charAt(R) == s.charAt(L), R++ and L--, so the L&R that satified the condition in the end will have be (R - 1) and (L + 1), so it should be R - 1 - (L + 1) + 1 == R - L - 1
