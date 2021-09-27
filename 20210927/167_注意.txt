@@ -1,0 +1,1 @@
+1. two pointer solution has bette space complexity than Hashmap
