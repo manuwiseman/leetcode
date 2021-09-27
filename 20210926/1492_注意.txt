@@ -1,0 +1,2 @@
+1. for loop start at 1 not 0 cuz 0 is not a valid divisor
+2. return n / divisor.get(len - k)

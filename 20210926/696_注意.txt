@@ -1,0 +1,1 @@
+1. need to return ans + Math.min(pre, cur) since the first Math.min([pre, cur]) is 0
