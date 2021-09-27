@@ -1,0 +1,2 @@
+1. notice that it's printable ASCII, so both upper case and lower case.
+2. don't modify the string directly as it's very expensive, have an array that manipulate each char there.
