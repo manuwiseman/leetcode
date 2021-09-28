@@ -1,0 +1,1 @@
+1. no need to sort the array in the beginning since it will take O(NlogN) + O(N), just keep comparing the length and lexicographical order and time complexity is O(N)
