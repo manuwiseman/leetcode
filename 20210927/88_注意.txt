@@ -1,0 +1,1 @@
+us while(index >= 0) instead of (a >= 0 && b >= 0) for clearer code

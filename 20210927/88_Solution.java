@@ -1,0 +1,12 @@
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int index = m + n - 1, a = m - 1, b = n - 1;
+        while(index >= 0) {
+            if (b < 0 || a >= 0 && nums1[a] > nums2[b]) {
+                nums1[index--] = nums1[a--];
+            } else {
+                nums1[index--] = nums2[b--];
+            }
+        }
+    }
+}
