@@ -1,0 +1,5 @@
+1. sort the ending point in ascending order
+2. a. when intervals[pre][1] < intervals[cur][0], no overlapping, count++
+   b. when intervals[cur][0] <= intervals[pre][0] <= intervals[pre][1] <= intervals[cur][1], cur completely subsumes pre, skip cur
+   c. when intervals[pre][0] <= intervals[cur][0] <= intervals[pre][1] <= intervals[cur][1], skip cur as it can free up the space between intervals[pre][1] and intervals[cur][1]
+   so anyway if there's an overlap, always skip the latter one
