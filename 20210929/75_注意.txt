@@ -1,0 +1,3 @@
+1. when nums[cur] == 0, p0++ is easy to understand, cur++ is becuase if no 2 can exist in the left half as it has been moved to the right, and if the value gets swapped from left is 1, also just ++, and if it's 0, since it doesn't make any difference, just ++
+2. when nums[cur] == 1, just ++, simple
+3. when nums[cur] == 2, p2-- is easy to understand, but why cur doesn't ++? because the value gets swapped can be 0, 1, or 2. so we need to check again right here.
