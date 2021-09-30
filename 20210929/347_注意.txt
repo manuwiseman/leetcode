@@ -1,0 +1,1 @@
+1. quick select is definitey the way to go for kth element problem, or top k elements problem

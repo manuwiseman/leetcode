@@ -1,0 +1,2 @@
+1. I like the hashmap and sort solution (the one that's commented out) better as it's more straight forward and online judge actaully gave better runtime for both time and space complexity.
+2. However, time complexity for hashmap and sort solution is still N(LogN) and Multiset and bucket sort solution's time complexity is still O(N), so the latter is bettert
