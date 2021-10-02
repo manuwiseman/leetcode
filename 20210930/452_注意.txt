@@ -1,0 +1,2 @@
+1. basically sort by ending point and compare is the way to go to handle overlapping problem.
+2. the only difference between this problem and #435 is if 2 intervals overlap at one point it still counts as overlapping.

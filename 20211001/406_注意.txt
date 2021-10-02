@@ -1,0 +1,2 @@
+1. sort the array in descending order first
+2. use list.add(index, element) is quite brilliant, any taller people in front of shorter people meets the requirement so once we sort in step 1, just inset the element in the index of p[1] 
