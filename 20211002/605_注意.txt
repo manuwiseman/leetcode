@@ -1,0 +1,1 @@
+1. n can be 0, so should use : if (n <= 0) return true;
