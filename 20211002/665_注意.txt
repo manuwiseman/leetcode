@@ -1,0 +1,1 @@
+1. if there's nums[i - 2] > nums[i] then nums[i] = nums[i-1], otherwise always make nums[i - 1] = nums[i] cuz that way it's more likely nums[i] <= nums[i + 1]
