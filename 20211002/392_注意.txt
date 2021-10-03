@@ -1,0 +1,1 @@
+1. check index for each char for s in t is sligher better than 2 pointers
