@@ -1,0 +1,1 @@
+1. if nums[r] > nums[mid], min is on left side, otherwise it's on the right side
