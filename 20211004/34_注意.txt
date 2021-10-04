@@ -1,0 +1,1 @@
+1. find leftmost key of target key is very useful, in the end we return l, always check if i == l, if i != l, then l is the position that key is supposed to be, if i == l then l is the position of leftmost key of target
