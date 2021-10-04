@@ -1,0 +1,2 @@
+1. binary search
+2. return right since if you exit the loop, left will be greater than right, so return right

@@ -4,10 +4,10 @@ class Solution {
 		while (start <= end) {
 			int mid = start + (end - start) / 2;
 			if (nums[mid] == key) return mid;
-			if (nums[mid] < key) {
+			else if (nums[mid] < key) {
 				start = mid + 1;
 			} else {
-				end = mid + 1;
+				end = mid - 1;
 			}
 		}
 		return -1;
