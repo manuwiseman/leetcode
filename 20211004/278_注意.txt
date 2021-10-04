@@ -1,0 +1,2 @@
+if you are returning from inside the loop, use left <= right
+if you are reducing the search space, use left < right and finally return a[left]
