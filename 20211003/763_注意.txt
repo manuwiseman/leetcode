@@ -1,0 +1,2 @@
+1. when next time see "s consists of lowercase English letters.", condiser use a int[26] immediately
+2. the rest of the logic is pretty staright forward, always track the largest index of characters have been visited so far, and when current index == largest index tracked, that means we have found qualified substring, record the length
