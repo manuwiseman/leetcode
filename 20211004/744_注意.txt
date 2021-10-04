@@ -1,0 +1,2 @@
+1. we need to find the rightmost position to insert target, once we have the mid, if letters[mid] <= target, it will be on the right, so l = mid + 1, otherwise it will be on the left, so r = mid - 1
+2. if l < n, return letters[l], if l == n, return letters[0], so return letters[l % n]
