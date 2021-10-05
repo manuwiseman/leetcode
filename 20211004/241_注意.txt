@@ -1,0 +1,1 @@
+1. basically for each operator, we divide the string into left and right string, which both also contains all possible results, and this process can go on and on. The base case is for a substring, there's no possible results, means it doesn't contain any operator, so we convert it to a number. 
