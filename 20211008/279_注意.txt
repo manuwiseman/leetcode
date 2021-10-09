@@ -1,1 +1,1 @@
-BFS is better than DP in this case
+BFS is better than DP in this case, but better to know both. 

@@ -1,0 +1,1 @@
+DFS is implemented by a stack
