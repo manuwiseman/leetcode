@@ -1,0 +1,1 @@
+this picture explains the space complexity of BFS solution, min (m, n). https://imgur.com/gallery/M58OKvB

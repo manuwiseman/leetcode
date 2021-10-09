@@ -1,0 +1,1 @@
+basically the number of islands, number of provinces can all be solved with DFS, BFS, Union Find solution.
