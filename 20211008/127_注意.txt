@@ -1,0 +1,1 @@
+1. on line 26, for (String dic : dictionary.getOrDefault(nw, new ArrayList<String>())), don't just use get(new) cuz if it's null it will throw a NPE

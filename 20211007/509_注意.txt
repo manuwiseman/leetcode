@@ -1,0 +1,8 @@
+1. this solution was accepted, however, for any k < n, fib(k) is calculated multiple times which is not efficient.
+
+class Solution {
+    public int fib(int n) {
+        if (n < 2) return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+}

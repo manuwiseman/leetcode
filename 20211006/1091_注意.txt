@@ -1,0 +1,25 @@
+Approach 1, overwriting input
+
+1.
+   If an interviewer asks you this question in an interview, then their goal is probably to determine that: 
+   You can recognize that this is a typical shortest path problem that can be solved with a Breadth-first search (BFS).
+   You can correctly implement a BFS to solve it.
+   For bonus points, you know that the solution could be optimized using the A* algorithm.
+
+2. BFS is implemented using a queue
+3. the solution article is actually very well explained
+4. once you get it it's not that hard: you need to have a queue, grid will track the distance, neighbor cell's distance = distance + 1 and they need to be valid (value is 0 and not out of bound), then just check who reaches grid[grid.length][grid[0].length] first, that's the shortest path
+
+
+=========================================================================================================================================
+
+
+Approach 2, not overwriting input
+1. a visited array is needed. basically can easily rewritten from approach 1
+2. I forgot to check visited[neighborRow][neighborCol] is true or not, as in the overwriting input solution a zero check is good enough, make sure don't make this mistake again.
+3. You should always discuss the possibility of overwriting the input with your interviewer and clarify what kind of environment your algorithm is expected to run in. Sometimes they won't care, sometimes they'll state it has to run in a multithreaded environment, or sometimes they'll have a particular preference as it impacts what they're trying to see from you.
+4. The first approach is nice in that it's very intuitive—it's directly based on how you might solve the problem on a whiteboard. It also avoids the need for a "visited" set or data structures to keep track of distances, thus saving a constant amount of memory over typical BFS implementations. However, like all in-place algorithms, overwriting the input can cause problems. Here are a couple of possible scenarios you need to consider.
+
+a. That the algorithm is running in a * multithreaded* environment, and it does not have exclusive access to the grid. Other threads might need to read the grid too, and might not expect it to be modified.
+
+b. That there is only a single thread or the algorithm has exclusive access to the grid while running, but the grid might need to be reused later or by another thread once the lock has been released.
