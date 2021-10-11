@@ -1,0 +1,3 @@
+1. if the region is not captured it must have at least one node on the edge, then we can each edge and mark all nodes 'O' to 'T' with DFS and handle them later
+2. after DFS is done for all 4 edges, we loop thru each node and mark 'T' to 'O' and everything else to 'X'
+3. viola
