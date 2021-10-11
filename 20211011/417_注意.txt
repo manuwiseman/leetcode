@@ -1,0 +1,6 @@
+BFS solution: don't mess up m and n when filling the queu, very easy to make mistaks there. e.g. https://leetcode.com/submissions/detail/569442281/ becuase of this there's an index out of bound exception got thrown
+
+
+Intuitively, BFS makes more sense for this problem since water flows in the same manner. However, we can also use DFS, and it doesn't really make much of a difference. So, if you prefer DFS, then that's perfectly fine for this problem. Additionally, it's possible that your interviewer will ask you to implement the problem recursively instead of iteratively. Recursion must be DFS, not BFS.
+
+DFS solution: change the queue part to recursive DFS,that's it
