@@ -1,0 +1,2 @@
+1. return the boolean value immediately after found the valid string, so use boolean instead of void for backtracking
+2. was able to finish the question in about 35 mins and didn't check the solution, great job Rui!
