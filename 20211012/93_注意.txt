@@ -1,0 +1,1 @@
+don't forget i < s.length() in the for loop
