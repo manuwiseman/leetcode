@@ -1,0 +1,2 @@
+1. String in java is immutable
+2. for simple concatenation, you don't need stringbuilder cuz from the bytecode you can see in java for str1 + str2 it's already using strinbbuidler: https://dzone.com/articles/string-concatenation-performacne-improvement-in-ja, however, e.g. in a for loop we better implement the stringbuilder on our own cuz otherwise for each iteration, a new stringbuilder will be created and that's not very efficient.
