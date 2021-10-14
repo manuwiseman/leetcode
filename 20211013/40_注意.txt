@@ -1,0 +1,4 @@
+Compare to 39. Combination Sum
+1. need to sort the array in this case, I got it right (+1)
+2. need to have a visited array to track visitied element, I got it right (+1)
+3. for duplicate values, only use the first one as the first element in the list, otherwise continue to next loop, I got it wrong by putting break there which exit the whole loop :p
