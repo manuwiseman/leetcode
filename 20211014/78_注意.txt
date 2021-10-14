@@ -1,0 +1,1 @@
+lexcicographic solution is the easiest to implement during the interview
