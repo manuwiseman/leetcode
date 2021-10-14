@@ -1,0 +1,1 @@
+I basically came up the efficient solution by my own, almost equallly good as leetcode's solution!
