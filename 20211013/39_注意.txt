@@ -1,0 +1,1 @@
+1. at first I thought I had to sort the array, but actually I don't: [2, 2, 3] or [3, 2, 2], they are the same, no need to sort 
