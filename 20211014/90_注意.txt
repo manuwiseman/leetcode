@@ -1,0 +1,1 @@
+sort the array and use a visited array, is always the solution for questions like this: backtracking problem, with duplicate values ;)
