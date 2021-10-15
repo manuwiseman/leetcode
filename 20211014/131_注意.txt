@@ -1,0 +1,11 @@
+basically all the backtracking has the same pattern
+
+1. a list to track the final result
+2. backtracking function
+3. a condition to insert the candidate into final result list
+4. a for loop that start from first elemnt to last
+5. a condition to determine when to insert the elemnt into candidate, candidate is usually a list, a string builder, etc
+6. whatever set to list or companion array i.e. visited needs to be reset afterwards
+
+
+3 & 5 are the hardest
