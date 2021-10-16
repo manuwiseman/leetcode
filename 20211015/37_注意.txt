@@ -1,0 +1,6 @@
+1. It looks super complicated, even when the solution is given. but actually the pattern is still pretty much the same with other backtracking problems. 
+a. we have 3 arrays: row, col, subbox to track if the number already appears
+b. we mark all the cell that's not '.' in those 3 arrays
+c. backtracking for any cell that's not '.', we loop thru 1 to 9, for each number we check if we can put them in the matrix, so row[i][d], col[j][d], subbox[index][d] should all be 0, if this is possible, we place the number(placeNumber()), we go with next numbers(placeNextNumbers()), of course like every other backtracking question, we need to remove the number we just placed.
+d. in next numbers function, we check if we already reach the matrix[8][8], if so we have found the sudoku, otherwise, we need to go to next element, matrix[row + 1][0] or matrix[row][col + 1] depending if you are on the last element of a row or not, and keep backtracking
+e. in step c, if the cell is not '.', we should just go to placeNextNumbers()

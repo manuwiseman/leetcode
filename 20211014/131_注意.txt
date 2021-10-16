@@ -9,3 +9,7 @@ basically all the backtracking has the same pattern
 
 
 3 & 5 are the hardest
+
+
+
+so backtracking should be I insert the first element that meets the criteria into candidate list for final result, and leave the rest to backtracking method, e.g.problem like palindrome, we found the first palindrome, and insert that substring into list, and then the rest of the string substring(i+ 1) will be put into backtracking() method to be processed the say way.
