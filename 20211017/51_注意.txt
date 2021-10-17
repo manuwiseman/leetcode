@@ -1,0 +1,8 @@
+It's very important to know the diagonal arrya length and the index of cell
+
+this.diagonalUsed = new boolean[2 * n - 1];
+this.antidiagonalUsed = new boolean[2 * n - 1];
+int diagonalUsedIndex = row + col;
+int antidiagonalUsedIndex = n - 1 - (row - col);
+
+Once we know above info, the solution is quite straightforward, just make sure of each cell we try, colUsed, diagonalUsed, antidiagonalUsed should all be false
