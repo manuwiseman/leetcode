@@ -1,1 +1,1 @@
-pretty easy
+actually we don't need the whole dp array, all we need is jsut 2 previous values and then we can get our result, space complexity will be reduced from O(N) to O(1)

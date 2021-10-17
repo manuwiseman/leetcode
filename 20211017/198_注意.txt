@@ -1,0 +1,2 @@
+1. I mess up the logic in the beginning, by having a separate variable called max to track the max total sum, actually dp[i] is always the max total sum so it's not needed
+2. the logic is simple, dp[i - 2] + nums[i] or dp[i - 1], we take the whichever one is greater and that's the dp[i]
