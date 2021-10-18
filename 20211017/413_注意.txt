@@ -1,0 +1,4 @@
+1. dp array is tracking the # of arithmetic subarry that's ending in index i, so if exists nums[i] - nums[i - 1] == nums[i - 1] - nums[i - 2], then dp[i] = dp[i - 1] + 1;
+2. since we want to know how many sub arrays in total, we need to have a sum variable to keep track of it.
+3. this can be rewritten in constant space instead O(N)
+4. many dp soluiton actually doesn't really need a dp array, just the variable to keep track of the a few elements that's prior to current processed element
