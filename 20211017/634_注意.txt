@@ -1,0 +1,8 @@
+We place ii at the place of 11: By doing this, the problem of finding the derangements reduces to finding the derangements of the remaining n-2n−2 numbers, since we've got n-2n−2 numbers and n-2n−2 places, such that every number can't be placed at exactly one position.
+
+We don't place ii at the place of 11: By doing this, the problem of finding the derangements reduces to finding the derangements for the n-1n−1 elements(except 1). This is because, now we've got n-1n−1 elements and these n-1n−1 elements can't be placed at exactly one location(with ii not being placed at the first position).
+
+
+
+
+to avoid overflow, make sure to use dp[i] = (int) ((i - 1L) * (dp[i - 2] + dp[i - 1]) % 1000000007);, notice the "i - 1L" part

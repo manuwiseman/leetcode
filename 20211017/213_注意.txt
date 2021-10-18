@@ -1,0 +1,1 @@
+same idea with 198, but just get the greater between 0 - (n - 2) and 1 - (n -  1), since we can not have elemnt at 0 and n - 1 at the same time.
