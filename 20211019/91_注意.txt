@@ -1,0 +1,5 @@
+1. dp[1] is actually point to s.charAt(0), so don't mess up the index
+2. 
+// 2, 2, 3:  this is substring til the element we are going to add
+// 2, 2, 3, x -> x = 0: we are adding x and in this step we want to treat x as a single elemnt (not combining it with its previous elemnt to form character), if x is not 0, and the # of ways to decode dp[i - 1] will also work for dp[i], we can add dp[i - 1]'s value to dp[i]
+// 2, 2, 3, x -> 3 * 10 + x > 26 || 2, 2, 0, x: in this step we want to combine x with its previous element to form a new one, so if the previous element is not 0, and the new combined number <= 26, then we can add dp[i - 2] to dp[i]
