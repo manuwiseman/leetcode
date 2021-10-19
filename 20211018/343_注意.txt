@@ -1,0 +1,2 @@
+so first we will have a dp array to track the largest product for each index
+for given integer n, say 5, the integer j is an integer that's less than n, say 2, and dp[i] can either be (5 - 2) * 2 or dp[5 - 2] * 2, we take the larger one, and sicne we will compare dp[i] with any integer that's less than n, so we also need to select between the larger one that we get from last step, and compare with dp[i]
