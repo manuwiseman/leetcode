@@ -1,0 +1,1 @@
+for the BFS solution, remember always to get the size of the queue and then interate, otherwise we the size of the queue keeps changing and we will have a bug.
