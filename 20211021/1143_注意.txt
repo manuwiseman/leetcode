@@ -1,0 +1,1 @@
+the dp array nees to be int[m + 1][n + 1] cuz if it was int[m][n], then if can't start at i = 0 or j = 0 cuz we will have index out of bound exception, if we start at i = 1 & j = 1, we will miss the case dp[0][1] and dp[1][0], so that's why we need to have int[m + 1][n + 1]
