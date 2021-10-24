@@ -1,0 +1,1 @@
+since (1, 1, 2) and (1, 2, 1) are treated as different combination, we don't need to handle loop thru nums first, which will get us the number of "unique combination", i.e. (1, 1, 2) and (1, 2, 1) are considered same.
