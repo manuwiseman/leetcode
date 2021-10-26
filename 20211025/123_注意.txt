@@ -1,0 +1,8 @@
+for bi-directional dp solution, basically we can divide prices array into 2 subarrays dynamically and get the max total profit
+
+1. 2 dp arrays, one starts from left and once starts from right
+2. for left we tracks left_min, for right we tracks right_max
+3. after populate 2 arrays we will loop one more time, max of left[i] + right[i + 1] will be the max profit
+
+
+one pass solution is another state machine
