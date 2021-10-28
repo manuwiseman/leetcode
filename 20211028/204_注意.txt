@@ -1,0 +1,2 @@
+use Sieve of Eratosthenes, for each prime p we find, starting from p*p we mark it as not prime
+e.g. 2 * 3 has been handled when p = 2, so when we start processing 3, we can start from 3 * 3
