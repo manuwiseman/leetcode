@@ -1,0 +1,2 @@
+1 .. 5 .. 10 ..25 ..50.., each will contribute one 0 if multiple by 2, which will be plenty. once divided by 5, it becomes
+0 .. 1 ... 1 .. 5... 10, and we will call the same method, and so on and so forth
