@@ -1,1 +1,3 @@
 each time we take a look at the last four digits of binary verion of the input, and maps that to a hex char shift the input to the right by 4 bits, do it again until input becomes 0.
+
+num & 15 returns the last 4 digits in binary for num
