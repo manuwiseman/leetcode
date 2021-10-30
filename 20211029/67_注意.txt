@@ -1,0 +1,2 @@
+1. bit by bit solution is more straightfoward
+2. but there's a variation of the facebook interview question that interviewer ask you to solve this question without using addition
