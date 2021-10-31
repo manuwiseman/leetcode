@@ -1,0 +1,1 @@
+1, 4, 9, 16.... the difference between them is 3, 5, 7.... that's because (n + 1)^2 = n^2 + 2n + 1, so as n increment, the difference will get larger by 2 each time.

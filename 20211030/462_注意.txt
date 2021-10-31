@@ -1,0 +1,3 @@
+why choose median?
+1. after sort array, if we choose median, for a....m....b, for both a and b to move to m, totaly move is b - a, and the same for all other pairs from both ends.
+2. if we don't choose median, say we choose n which is after m, for a and b to move to n, totaly move is also b - a, and we keep going, finally we will have l, m both try to move to n, since m is the median, l and n move to m will be shorter than l and m move to n, so m is the best choice
