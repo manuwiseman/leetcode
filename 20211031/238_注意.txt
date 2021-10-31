@@ -1,0 +1,2 @@
+1. loop from beginning and then loop from end is the right way to go, good job.
+2. in the 2nd loop we can calculate the final result already.
