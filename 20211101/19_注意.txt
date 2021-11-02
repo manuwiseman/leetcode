@@ -1,0 +1,1 @@
+dont forget to handle if (fast == null) return head.next!
