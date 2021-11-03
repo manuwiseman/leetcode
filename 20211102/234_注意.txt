@@ -1,0 +1,6 @@
+kinda straightforward once you undertstand:
+1. we need to cut the linked list in half
+2. reverse the 2nd half
+3. compare the 1st and 2nd for palindrome
+
+check how to reverse the linked list again: https://www.youtube.com/watch?v=NhapasNIKuQ
