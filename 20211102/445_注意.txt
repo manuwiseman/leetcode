@@ -1,0 +1,2 @@
+1. stack solution is basically reversing the input array
+2. don't reverse the input array solution is worth memorizing
