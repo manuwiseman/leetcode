@@ -1,0 +1,1 @@
+1. maxDepth needs to keep calling itself, and we need to constantly compare len of left subtree and right subtree
