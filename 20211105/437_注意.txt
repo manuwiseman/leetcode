@@ -1,0 +1,3 @@
+this presum solution is great: https://leetcode.com/problems/path-sum-iii/solution/
+
+btw make sure you don't have obvious typo, like I handled all the logic right, but forgot to add new when creating hashmap, this kind of mistakes are super stupid and can fail my interview!
