@@ -1,0 +1,1 @@
+don't miss "if (minLeft == 0 || minRight == 0) return minLeft + minRight + 1;" in recursive solution.
