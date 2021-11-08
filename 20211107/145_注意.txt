@@ -1,0 +1,2 @@
+postorder is left -> right -> root
+and what we can do is : root -> right -> left and then reverse it
