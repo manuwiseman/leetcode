@@ -1,0 +1,1 @@
+I think my solution has a bit better time complexity cuz mine don't have to process every node in the tree but the cleanr solution has to
