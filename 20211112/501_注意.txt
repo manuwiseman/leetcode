@@ -1,0 +1,2 @@
+java8 lambda fuction seems to take more time:
+return ans.stream().mapToInt(i->i).toArray();
