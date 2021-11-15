@@ -1,0 +1,1 @@
+ space is the issue and that's why Trie are really useful. For millions of words having lots of same prefix would overload hashmap and Trie would rescue you.
