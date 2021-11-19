@@ -1,0 +1,5 @@
+this problem is the same with finding kth smallest element in N separate arrays
+
+the binary search solution is pretty elegant
+
+https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solution/
