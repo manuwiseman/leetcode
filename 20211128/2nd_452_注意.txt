@@ -1,0 +1,1 @@
+to avoid overflow issue, instead of Arrays.sort(points, ((a, b) -> a[0] - b[0])), use Arrays.sort(points, Comparator.comparingInt(o -> o[1])); instead
