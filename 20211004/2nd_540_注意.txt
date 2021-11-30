@@ -1,0 +1,5 @@
+The single element is at the first even index not followed by its pair. We used this property in the linear search algorithm, where we iterated over all of the even indexes until we encountered the first one not followed by its pair.
+
+Instead of linear searching for this index though, we can binary search for it.
+
+After the single element, the pattern changes to being odd indexes followed by their pair. This means that the single element (an even index) and all elements after it are even indexes not followed by their pair. Therefore, given any even index in the array, we can easily determine whether the single element is to the left or to the right.
