@@ -1,0 +1,1 @@
+notice that the right index of findFirst() is nums.length so this prevents the possibility that target + 1 can't be found in nums and mistakenly gets set the value to the last index of target value, if the last occurence of target value is also the last element in nums
