@@ -1,0 +1,1 @@
+sicne there could be "null" node, when start < end, we need to add null to list and return, so it can be picked up by its parent node
