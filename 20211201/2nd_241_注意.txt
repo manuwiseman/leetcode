@@ -1,0 +1,2 @@
+1. it's essential to deal with the corner case that list is empty
+2. this question is very typical for divide and conquer, and once the dfs part figured out, it's pretty easy
