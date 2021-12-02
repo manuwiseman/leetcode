@@ -1,0 +1,4 @@
+Finding the shortest path between two nodes in a graph is almost always done using BFS, and all programmers should know this. BFS is one of the fundamental algorithms that you are expected to be confident coding before a tech interview. So, if you're finding this question challenging, then you're doing the right thing by working on it now.
+
+from the old "1091_注意.txt": 
+3. You should always discuss the possibility of overwriting the input with your interviewer and clarify what kind of environment your algorithm is expected to run in. Sometimes they won't care, sometimes they'll state it has to run in a multithreaded environment, or sometimes they'll have a particular preference as it impacts what they're trying to see from you.
