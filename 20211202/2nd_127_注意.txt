@@ -1,0 +1,5 @@
+for BFS usually we need:
+1. of course a queue ;)
+2. a variable to keep track of the distance so far (this can be integrated into the queue like in this solution)
+3. a fuction or a data structure to get to the adjacent elements from the current element polled from queue
+4. a data structure to keep track of which elements have been visited
