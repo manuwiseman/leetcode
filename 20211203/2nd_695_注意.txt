@@ -1,0 +1,2 @@
+this is really not that hard so please don't look at the answer next time, try to come up with the solution on you own
+for interview, try the recursive solution first as it's way more straightforward and much less error prone, but the interviewer might also ask to implement the stack soluiton, which is also not that hard
