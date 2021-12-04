@@ -1,0 +1,1 @@
+this is also a pretty easy question for DFS, make sure you can come up the solution on your own.
