@@ -1,0 +1,1 @@
+in this solution we introduced k to keep track of how many parts we already have and if we have 4 then we quite, this is pretty typical for backtracking, try to come up with the solution on your own at next try
