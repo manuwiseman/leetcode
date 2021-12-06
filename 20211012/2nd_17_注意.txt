@@ -1,0 +1,1 @@
+this is a typical backtracking problem and it's probably one of the easiest one, stringbuilder's length can be used to track the index of which digit we are dealing with now
