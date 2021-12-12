@@ -1,0 +1,4 @@
+this is a pretty good quesiton:
+1. it tests that you should know priority queue using comparator, and list for letters and digits
+2. it tests the split, charAt api of string
+3. good to know this is easy level, actaully not that hard, but compare to easy level DP questions, this is still pretty challanging
