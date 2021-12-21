@@ -1,0 +1,1 @@
+it's important to notice that the after we group the '0's and '1's, the "cur = 1" actually refers to the first letter of the first group, and that's why after the for loop, we still have the last 2 group yet to be compared, and thus finally we return ans + Math.min(pre, cur)
