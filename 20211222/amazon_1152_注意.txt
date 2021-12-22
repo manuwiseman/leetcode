@@ -1,0 +1,2 @@
+1. it's really great pratice to use comments as outlines to break the whole program into several blocks to simplify
+2. once step1 is done, this question is actually not that hard, a few things to keep in mind is: 1. the websites visited by user might not be sorted in the input, so 1st step is to sort it, 2. user might visited less than 3 or more than 3 websites and this also needs to be handled
