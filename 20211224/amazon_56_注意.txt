@@ -1,0 +1,1 @@
+LinkedList is better than ArrayList in this case and give us cleaner code
