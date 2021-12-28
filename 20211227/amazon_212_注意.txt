@@ -1,0 +1,2 @@
+1. looks hard but it's actually just: 1. Trie + 2.backtracking
+2. it's very important to remember how to implement a trie: basically it's just a hashmap with key of char and value of TrieNode

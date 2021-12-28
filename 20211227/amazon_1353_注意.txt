@@ -1,0 +1,2 @@
+1. the tricky part is firstly sort the array based on start time, but then have a priority queue to attend the event that ends the soonest
+2. the logic in the while loop is also very error-prone: a. if pq is empty then we start at the day of the starting day of first started event. b. all the event have started will be inserted into queue 3. attend one event from the pq 4. remove all event that's already ended before we can even attend
