@@ -1,0 +1,2 @@
+1. max must be long type
+2. e.g. max += (long)(curVal + nextVal + 1) * (curVal - nextVal) / 2 * numberOfBalls; have to make sure / 2 is after multiplication otherwise because division result is rounded up so it might cause incorrect result
