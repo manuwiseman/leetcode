@@ -1,0 +1,6 @@
+1. "()" breaks the whole expression into smaller expressions
+2. Stack stores either '(', digits, or smaller expressions. e.g. 5*6.
+3. the whole idea is store the expression that we are not certain how to calculate yet into stack, and process it once we see next operator
+3. in each expression surrounded by "()", whenever we see '+', '-' e.g. the 1st/2nd '+' in (1 + 2 + 3), or '+' in (1 * 5 + 6), we know we can go all the way back to the '(' to calculate everything before '+' and '-', because '+' and '-' has the lowest priority.
+4. for ')' it's more straight forward, once we see it we should definitely go all the way back to '(' and do all the calculation, and don't forget to pop out the '(' in the stack
+5. for '*' and '/', since they have higher prioirty than '+' and '-', once we see them, we have to check the priority of most recent operator in the stack, that's why only if the most recent operator is '*' or '/' then we can calculate, e.g. 1 + 2 * 3, if (1 + 2) is already pushed into stack, when we deal with '*', the most recent operator in stack is '+', then we can be sure that we should definitely NOT calculate 1 + 2
