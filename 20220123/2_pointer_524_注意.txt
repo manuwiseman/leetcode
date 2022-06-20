@@ -1,0 +1,2 @@
+we don't need to sort the list becuase it will take O(nlog(n)) time
+we can just loop thru each string and see if it's longer or having smaller lexicographic order than the current ans string, if not we can just continue to move on, otherwise we will use 2 pointer method to check if the string is valid, if so we will update ans string, this will take O(n) time
